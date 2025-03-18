@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio website showcasing my work and skills">
+    <meta name="keywords" content="Data Scientist">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Proof of Work</div>
+        <ul class="nav-links">
+            <li><a href="#home" aria-label="Home">Home</a></li>
+            <li><a href="#about" aria-label="About">About</a></li>
+            <li><a href="#skills" aria-label="Skills">Skills</a></li>
+            <li><a href="#projects" aria-label="Projects">Projects</a></li>
+            <li><a href="#contact" aria-label="Contact">Contact</a></li>
+        </ul>
+        <button class="burger" aria-label="Toggle navigation menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </button>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Gaurav Sharma </span></h1>
+            <p class="subtitle">Data Scientist</Data></p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary" aria-label="View my projects">View My Work</a>
+                <a href="#contact" class="btn secondary" aria-label="Contact me">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="C:\Users\gaura\portfolio-website\imgs\brightened_face.jpeg" alt="Profile Picture" width="400" height="400">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a data engineer</p>
+                <div class="about-details">
+                    <div class="detail">
+                        <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                        <span>Mater's in Computer Engineering</span>
+                    </div>
+                    <div class="detail">
+                        <i class="fas fa-briefcase" aria-hidden="true"></i>
+                        <span>2+ Years Experience</span>
+                    </div>
+                    <div class="detail">
+                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                        <span>California, United States</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Data Science and Machine Learning</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fab fa-sync" aria-hidden="true"></i>
+                        
+                        <span>EDA</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt" aria-hidden="true"></i>
+                        <span>SQL</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-chart-line" aria-hidden="true"></i>
+                        <span>ETL</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-python" aria-hidden="true"></i>
+                        <span>Programming</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-react" aria-hidden="true"></i>
+                        <span>Visualization</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-git" aria-hidden="true"></i>
+                        <span>Version Control</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa-plus" aria-hidden="true"></i>
+                        <span>Mathematics</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-fire" aria-hidden="true"></i>
+                        <span>Pytorch</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-cogs" aria-hidden="true"></i>
+                        <span>Tensorflow</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200" alt="Project 1 Screenshot" width="300" height="200">
+                <div class="project-info">
+                    <h3>Recommendation System</h3>
+                    <p>Built a collaborative and content-based filtering system.</p>
+                    <p>Improved recommendation accuracy using cosine similarity</p>
+                    <p>Built backend for efficient data analysis</p>
+                    <div class="project-links">
+                        <a href="#" class="btn" aria-label="View Project 1 live">Youtube</a>
+                        <a href="#" class="btn" aria-label="View Project 1 on GitHub">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200" alt="Project 2 Screenshot" width="300" height="200">
+                <div class="project-info">
+                    <h3>Customer Churn Prediction</h3>
+                    <p>Developed a machine learning model to predict customer Churn.</p>
+                    <p>Performed feature engineering and used SHAP values to interpret key churn factors.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn" aria-label="View Project 2 live">Youtube</a>
+                        <a href="#" class="btn" aria-label="View Project 2 on GitHub">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="project-card">
+                <img src="https://via.placeholder.com/300x200" alt="Project 3 Screenshot" width="300" height="200">
+                <div class="project-info">
+                    <h3>Project 3</h3>
+                    <p>A brief description of your third project and its key features.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn" aria-label="View Project 3 live">View Live</a>
+                        <a href="#" class="btn" aria-label="View Project 3 on GitHub">GitHub</a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                    <span>gauravsharma98231@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone" aria-hidden="true"></i>
+                    <span>+7478366267</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                    <span>Northridge, California, United States</span>
+                </div>
+            </div>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name" class="sr-only">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="sr-only">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="sr-only">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social-links">
+            <a href="#" aria-label="GitHub Profile"><i class="fab fa-github" aria-hidden="true"></i></a>
+            <a href="#" aria-label="LinkedIn Profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Twitter Profile"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+        </div>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
